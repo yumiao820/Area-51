@@ -33,15 +33,15 @@ spring:
     connectionProperties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=5000
     # 合并多个DruidDataSource的监控数据
     #spring.datasource.useGlobalDataSourceStat=true
-  redis:
-        host: 127.0.0.1
-        port: 6379
-        password:
-        pool:
-            max-idle: 100
-            min-idle: 1
-            max-active: 1000
-            max-wait: -1
+   #redis:
+         #host: 127.0.0.1
+         #port: 6379
+         #password:
+         #pool:
+             #max-idle: 100
+             #min-idle: 1
+             #max-active: 1000
+             #max-wait: -1
 mybatis:
   #扫描dao xml
   mapper-locations:
